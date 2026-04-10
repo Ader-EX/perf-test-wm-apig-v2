@@ -40,4 +40,9 @@ yarn-error.log*
 **/*.log
 package-lock.json
 **/*.bun
-results
+results/full_report
+ely_results/full_report
+results/
+ely_results/
+is_results/
+esb_results/

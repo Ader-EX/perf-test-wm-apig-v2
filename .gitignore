@@ -40,9 +40,23 @@ yarn-error.log*
 **/*.log
 package-lock.json
 **/*.bun
-results/full_report
-ely_results/full_report
-results/
-ely_results/
-is_results/
-esb_results/
+
+
+# Exclude large files
+results/**/*.jtl
+results/**/*.csv
+ely_results/**/*.jtl
+ely_results/**/*.csv
+is_results/**/*.jtl
+is_results/**/*.csv
+
+# But ALLOW these:
+!results/apig_report/index.html
+!results/apig_report/statistics.json
+!results/apig_report/content/
+!ely_results/ely_report/index.html
+!ely_results/ely_report/statistics.json
+!ely_results/ely_report/content/
+!is_results/is_report/index.html
+!is_results/is_report/statistics.json
+!is_results/is_report/content/
